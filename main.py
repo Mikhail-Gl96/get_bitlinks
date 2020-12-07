@@ -87,10 +87,7 @@ if __name__ == '__main__':
     }
 
     parser = argparse.ArgumentParser(description='Bitly command line program')
-
-    # Идеологически правильное использование
-    # parser.add_argument('-l', '--link', type=str, help='link')
-
+    
     # Как требуется по заданию
     parser.add_argument('link', type=str, help='link')
 
